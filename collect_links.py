@@ -18,13 +18,13 @@ class CollectLinks:
 
         if platform.system() == 'Windows':
             print('Detected OS : Windows')
-            executable = './chromedriver/chromedriver_win.exe'
+            executable = './chromedriver/chromedriver_win32.exe'
         elif platform.system() == 'Linux':
             print('Detected OS : Linux')
-            executable = './chromedriver/chromedriver_linux'
+            executable = './chromedriver/chromedriver_linux64'
         elif platform.system() == 'Darwin':
             print('Detected OS : Mac')
-            executable = './chromedriver/chromedriver_mac'
+            executable = './chromedriver/chromedriver_mac64'
         else:
             raise OSError('Unknown OS Type')
 
