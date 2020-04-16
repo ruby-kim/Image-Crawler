@@ -3,7 +3,11 @@ Google, Naver multiprocess image crawler
 <br><br>
 
 ## How to use
-1. Install Chrome
+1. Install ChromeDriver
+   * ```cd chromedriver```
+   * Select suitable chromeDriver for the operating system and extract it to install.   
+   * You can install various chromedriver [here](http://chromedriver.storage.googleapis.com/index.html)
+   
 2. clone this repository: ```git clone https://github.com/kimkyeongnam/Image-Crawler.git```
 3. ```cd Image-Crawler```
 2. ```pip install -r requirements.txt```
